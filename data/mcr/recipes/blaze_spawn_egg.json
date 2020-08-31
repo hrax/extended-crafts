@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "gRg",
+        "gEg",
+        "FRF"
+    ],
+    "key": {
+        "g": {
+            "item": "minecraft:gold_ingot"
+        },
+        "R": {
+            "item": "minecraft:rotten_flesh"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        },
+        "F": {
+            "item": "minecraft:flint_and_steel"
+        }
+    },
+    "result": {
+        "item": "minecraft:blaze_spawn_egg",
+        "count": 1
+    }
+}
