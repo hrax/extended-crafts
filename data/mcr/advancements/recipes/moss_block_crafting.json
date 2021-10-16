@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "has_items": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:small_flowers"
+                    },
+                    {
+                        "tag": "minecraft:leaves"
+                    },
+                    {
+                      "items": ["minecraft:dirt"]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "mcr:crafting/moss_block"
+        ]
+    },
+    "parent": "mcr:root"
+}

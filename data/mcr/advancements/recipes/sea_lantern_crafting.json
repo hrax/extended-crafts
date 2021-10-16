@@ -5,13 +5,10 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:skeleton_skull"]
+                      "tems": ["minecraft:glass"]
                     },
                     {
-                        "items": ["minecraft:wither_rose"]
-                    },
-                    {
-                        "items": ["minecraft:coal"]
+                      "items": ["minecraft:soul_lantern"]
                     }
                 ]
             }
@@ -19,7 +16,7 @@
     },
     "rewards": {
         "recipes": [
-            "mcr:crafting/wither_skeleton_skull"
+            "mcr:crafting/sea_lantern"
         ]
     },
     "parent": "mcr:root"

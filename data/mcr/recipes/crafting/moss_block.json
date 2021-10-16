@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "LDL",
+        "LLL"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:small_flowers"
+        },
+        "L": {
+            "tag": "minecraft:leaves"
+        },
+        "D": {
+            "item": "minecraft:dirt"
+        }
+    },
+    "result": {
+        "item": "minecraft:moss_block",
+        "count": 1
+    }
+}
