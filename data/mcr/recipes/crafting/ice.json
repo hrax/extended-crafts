@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#W",
+        "W#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:powder_snow_bucket"
+        },
+        "W": {
+            "item": "minecraft:water_bucket"
+        }
+    },
+    "result": {
+        "item": "minecraft:ice",
+        "count": 4
+    }
+}

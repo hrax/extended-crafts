@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "has_items": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:leather"]
+                    },
+                    {
+                        "items": ["minecraft:string"]
+                    },
+                    {
+                        "items": ["minecraft:iron_ingot"]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "mcr:crafting/saddle"
+        ]
+    },
+    "parent": "mcr:root"
+}

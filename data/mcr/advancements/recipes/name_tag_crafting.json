@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "has_items": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:paper"]
+                    },
+                    {
+                        "items": ["minecraft:iron_ingot"]
+                    },
+                    {
+                        "items": ["minecraft:leather"]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "mcr:crafting/name_tag"
+        ]
+    },
+    "parent": "mcr:root"
+}

@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "has_items": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:feather"]
+                    },
+                    {
+                        "items": ["minecraft:phantom_membrane"]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "mcr:crafting/elytra"
+        ]
+    },
+    "parent": "mcr:root"
+}

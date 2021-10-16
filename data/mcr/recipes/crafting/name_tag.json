@@ -2,8 +2,8 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "  i",
-        " P ",
-        "P  "
+        "LPL",
+        "LLL"
     ],
     "key": {
         "i": {
@@ -11,6 +11,9 @@
         },
         "P": {
             "item": "minecraft:paper"
+        },
+        "L": {
+            "item": "minecraft:leather"
         }
     },
     "result": {

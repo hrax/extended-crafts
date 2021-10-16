@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "has_items": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:diamond"]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "mcr:smithing/diamond_axe",
+            "mcr:smithing/diamond_boots",
+            "mcr:smithing/diamond_chest",
+            "mcr:smithing/diamond_helmet",
+            "mcr:smithing/diamond_hoe",
+            "mcr:smithing/diamond_leggings",
+            "mcr:smithing/diamond_pickaxe",
+            "mcr:smithing/diamond_shovel",
+            "mcr:smithing/diamond_sword"
+        ]
+    },
+    "parent": "mcr:root"
+}

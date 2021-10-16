@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "has_items": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:skeleton_skull"]
+                    },
+                    {
+                        "items": ["minecraft:wither_rose"]
+                    },
+                    {
+                        "items": ["minecraft:coal"]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "mcr:crafting/wither_skeleton_skull"
+        ]
+    },
+    "parent": "mcr:root"
+}

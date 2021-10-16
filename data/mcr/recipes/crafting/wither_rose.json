@@ -2,16 +2,19 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "###",
-        "###",
+        "#P#",
         "###"
     ],
     "key": {
         "#": {
-            "item": "minecraft:rotten_flesh"
+            "tag": "minecraft:coals"
+        },
+        "P": {
+            "item": "minecraft:poppy"
         }
     },
     "result": {
-        "item": "minecraft:leather",
+        "item": "minecraft:wither_rose",
         "count": 1
     }
 }

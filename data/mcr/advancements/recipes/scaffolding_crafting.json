@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "has_items": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:stick"]
+                    },
+                    {
+                        "items": ["minecraft:string"]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "mcr:crafting/scaffolding"
+        ]
+    },
+    "parent": "mcr:root"
+}

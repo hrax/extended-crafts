@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "has": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:chest"]
+                    },
+                    {
+                        "items": ["minecraft:ender_eye"]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "mcr:crafting/shulker_shell"
+        ]
+    },
+    "parent": "mcr:root"
+}

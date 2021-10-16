@@ -2,22 +2,19 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "#R#",
-        "#E#",
+        "R#R",
         "#R#"
     ],
     "key": {
         "#": {
-            "item": "minecraft:porkchop"
+            "item": "minecraft:brown_mushroom"
         },
         "R": {
-            "item": "minecraft:rotten_flesh"
-        },
-        "E": {
-            "item": "minecraft:egg"
+            "item": "minecraft:red_mushroom"
         }
     },
     "result": {
-        "item": "minecraft:pig_spawn_egg",
+        "item": "minecraft:sponge",
         "count": 1
     }
 }

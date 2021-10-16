@@ -7,11 +7,11 @@
     ],
     "key": {
         "#": {
-            "item": "minecraft:iron_bars"
+            "tag": "minecraft:logs"
         }
     },
     "result": {
-        "item": "minecraft:spawner",
-        "count": 1
+        "item": "minecraft:chest",
+        "count": 4
     }
 }

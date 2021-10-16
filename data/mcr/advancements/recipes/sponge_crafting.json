@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "has_items": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:brown_mushroom"]
+                    },
+                    {
+                        "items": ["minecraft:red_mushroom"]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "mcr:crafting/sponge"
+        ]
+    },
+    "parent": "mcr:root"
+}
