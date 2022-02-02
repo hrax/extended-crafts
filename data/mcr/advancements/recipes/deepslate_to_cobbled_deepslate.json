@@ -5,7 +5,7 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:rotten_flesh"]
+                        "items": ["minecraft:deepslate"]
                     }
                 ]
             }
@@ -13,7 +13,7 @@
     },
     "rewards": {
         "recipes": [
-            "mcr:smelting/leather"
+            "mcr:stonecutting/deepslate_to_cobbled_deepslate"
         ]
     },
     "parent": "mcr:root"

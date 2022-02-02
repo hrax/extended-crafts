@@ -1,0 +1,57 @@
+{
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glass"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:emerald_block"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:diamond_block"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:obsidian"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:sea_lantern"
+            ]
+          }
+        ]
+      }
+    },
+    "has_result": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:beacon"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_items", "has_result"]
+  ],
+  "rewards": {
+    "recipes": [
+      "mcr:crafting/beacon"
+    ]
+  },
+  "parent": "mcr:root"
+}

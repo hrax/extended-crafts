@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:packed_ice"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_items"]
+  ],
+  "rewards": {
+    "recipes": [
+      "mcr:crafting/packed_ice_to_ice"
+    ]
+  },
+  "parent": "mcr:root"
+}

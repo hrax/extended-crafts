@@ -1,0 +1,36 @@
+{
+    "criteria": {
+        "has_items": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:snowball"]
+                    },
+                    {
+                        "items": ["minecraft:water_bucket"]
+                    }
+                ]
+            }
+        },
+        "has_result": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+              "items": [
+                  {
+                      "items": ["minecraft:ice"]
+                  }
+              ]
+          }
+      }
+    },
+    "requirements": [
+      ["has_items", "has_result"]
+    ],
+    "rewards": {
+        "recipes": [
+            "mcr:crafting/ice"
+        ]
+    },
+    "parent": "mcr:root"
+}

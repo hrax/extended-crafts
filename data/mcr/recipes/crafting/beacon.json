@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "#S#",
+      "EDE",
+      "OOO"
+  ],
+  "key": {
+      "#": {
+          "item": "minecraft:glass"
+      },
+      "E": {
+          "item": "minecraft:emerald_block"
+      },
+      "D": {
+          "item": "minecraft:diamond_block"
+      },
+      "O": {
+          "item": "minecraft:obsidian"
+      },
+      "S": {
+          "item": "minecraft:sea_lantern"
+      }
+  },
+  "result": {
+      "item": "minecraft:beacon",
+      "count": 1
+  }
+}

@@ -15,8 +15,21 @@
                     }
                 ]
             }
-        }
+        },
+        "has_result": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+              "items": [
+                  {
+                    "items": ["minecraft:moss_block"]
+                  }
+              ]
+          }
+      }
     },
+    "requirements": [
+      ["has_items", "has_result"]
+    ],
     "rewards": {
         "recipes": [
             "mcr:crafting/moss_block"

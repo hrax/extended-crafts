@@ -1,0 +1,33 @@
+{
+    "criteria": {
+      "has_items": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+              {
+                  "tag": "minecraft:coals"
+              },
+              {
+                  "items": ["minecraft:poppy"]
+              }
+          ]
+        }
+      },
+      "has_result": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+              {
+                  "items": ["minecraft:wither_rose"]
+              }
+          ]
+        }
+      }
+    },
+    "rewards": {
+        "recipes": [
+            "mcr:crafting/wither_rose"
+        ]
+    },
+    "parent": "mcr:root"
+}

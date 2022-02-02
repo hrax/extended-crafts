@@ -5,18 +5,31 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:powder_snow_bucket"]
+                        "items": ["minecraft:dirt"]
                     },
                     {
                         "items": ["minecraft:water_bucket"]
                     }
                 ]
             }
-        }
+        },
+        "has_result": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+              "items": [
+                  {
+                      "items": ["minecraft:clay"]
+                  }
+              ]
+          }
+      }
     },
+    "requirements": [
+      ["has_items", "has_result"]
+    ],
     "rewards": {
         "recipes": [
-            "mcr:crafting/ice"
+            "mcr:crafting/clay"
         ]
     },
     "parent": "mcr:root"

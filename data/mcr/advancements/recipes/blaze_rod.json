@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "has_items": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:gold_block"]
+                    }
+                ]
+            }
+        },
+        "has_result": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+              "items": [
+                  {
+                      "items": ["minecraft:blaze_rod"]
+                  }
+              ]
+          }
+      }
+    },
+    "requirements": [
+      ["has_items", "has_result"]
+    ],
+    "rewards": {
+        "recipes": [
+            "mcr:blasting/blaze_rod"
+        ]
+    },
+    "parent": "mcr:root"
+}

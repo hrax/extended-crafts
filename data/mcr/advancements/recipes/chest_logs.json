@@ -9,8 +9,21 @@
                     }
                 ]
             }
-        }
+        },
+        "has_result": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+              "items": [
+                  {
+                      "items": ["minecraft:chest"]
+                  }
+              ]
+          }
+      }
     },
+    "requirements": [
+      ["has_items", "has_result"]
+    ],
     "rewards": {
         "recipes": [
             "mcr:crafting/chest_logs"

@@ -1,7 +1,7 @@
 {
     "type": "minecraft:blasting",
     "ingredient": {
-        "item": "minecraft:gold_ingot"
+        "item": "minecraft:gold_block"
     },
     "result": "minecraft:blaze_rod",
     "experience": 0.5,

@@ -5,7 +5,7 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:gold_ingot"]
+                        "items": ["minecraft:rotten_flesh"]
                     }
                 ]
             }
@@ -13,7 +13,8 @@
     },
     "rewards": {
         "recipes": [
-            "mcr:blasting/blaze_rod"
+            "mcr:campfire_cooking/rabbit_hide",
+            "mcr:smelting/rabbit_hide"
         ]
     },
     "parent": "mcr:root"

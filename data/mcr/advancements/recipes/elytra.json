@@ -12,8 +12,21 @@
                     }
                 ]
             }
-        }
+        },
+        "has_result": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+              "items": [
+                  {
+                      "items": ["minecraft:elytra"]
+                  }
+              ]
+          }
+      }
     },
+    "requirements": [
+      ["has_items", "has_result"]
+    ],
     "rewards": {
         "recipes": [
             "mcr:crafting/elytra"
